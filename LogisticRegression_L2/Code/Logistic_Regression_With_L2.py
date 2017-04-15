@@ -77,5 +77,5 @@ obj = logistic_regression(data,1)
 result, cost, prediction = obj.predict()
 accuracy_score = obj.accuracy(prediction)
 print accuracy_score
-
+#the accuracy score is 89% which when compared with sklearn logistic regression matches very well.
 
